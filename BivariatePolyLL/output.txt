@@ -1,0 +1,41 @@
+>PolynomialTester
+
+*** Constructor Testing ***
+p = 2x^8y^5 + 5x^2y^3 + 1x^1y^0 + 7x^0y^0
+q = -2x^8y^5 + 7x^8y^1
+r = 2x^1y^1
+s = 3x^4y^7 + 5x^1y^0
+t = 0
+
+*** Addition Testing ***
+p + q = 7x^8y^1 + 5x^2y^3 + 1x^1y^0 + 7x^0y^0
+q + r = -2x^8y^5 + 7x^8y^1 + 2x^1y^1
+r + s = 3x^4y^7 + 2x^1y^1 + 5x^1y^0
+s + t = 3x^4y^7 + 5x^1y^0
+t + p = 2x^8y^5 + 5x^2y^3 + 1x^1y^0 + 7x^0y^0
+
+*** Multiplication Testing ***
+p * q = -4x^16y^10 + 14x^16y^6 - 10x^10y^8 + 35x^10y^4 - 2x^9y^5 + 7x^9y^1 - 14x^8y^5 + 49x^8y^1
+q * r = -4x^9y^6 + 14x^9y^2
+r * s = 6x^5y^8 + 10x^2y^1
+s * t = 0
+t * p = 0
+
+*** Differentiation Testing ***
+d/dx(p) = 16x^7y^5 + 10x^1y^3 + 1x^0y^0
+d/dy(q) = -10x^8y^4 + 7x^8y^0
+d/dx(r) = 2x^0y^1
+d/dy(s) = 21x^4y^6
+d/dx(t) = 0
+
+*** Big Three Testing ***
+newP = 16x^7y^5 + 10x^1y^3 + 1x^0y^0
+newQ = -10x^8y^4 + 7x^8y^0
+newR = 2x^0y^1
+newS = 21x^4y^6
+newT = 0
+p = q = -10x^8y^4 + 7x^8y^0
+p = r = 2x^0y^1
+p = s = 21x^4y^6
+p = t = 0
+>Exit code: 0

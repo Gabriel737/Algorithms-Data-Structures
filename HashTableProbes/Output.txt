@@ -1,0 +1,11 @@
+>ProbeTester
+
+*** Probe Tester by Gabriel Henderson ***
+There will be 999 elements inserted
+The designated load factor is: 0.5
+The number of trials is: 100
+Average comparisons per: 		Linear 		Quadratic
+- Inserting 1000 keys 		0.497		0.425
+- Searching 1000 successful 		1.51		1.42
+- Searching 1000 unsuccessful 	2.09		1.63
+>Exit code: 0

@@ -1,0 +1,18 @@
+*** Test Cases ***
+
+P(x)				Reason
+====================================================
+x^2				Typical input
+2x^4				Typical input
+x^2 + 2x + 1			Typical input
+x^4 + x^3 - 2			Typical input
+2x^3 + 1			Typical input
+100x^5 + 50x^4 + x^3 + 2x^2	Large polynomial
+2x				Linear polynomial
+4				Constant polynomial
+x^1000 + 4			Sparse polynomial
+0				Zero polynomial
+
+Note: These polynomials are the same ones that are in the input file.
+The results of the operations tested can be found in the output file. All results were as expected.
+You may reproduce the output by using the command PolynomialTester < input.txt > output.txt
